@@ -52,14 +52,14 @@
         <br>
         <h3 class="letra2"> Qual valor do conserto? <input type="number" id="conserto"> </h3>
         <br>
-        <h3 class="letra2"> Quantas vezes conserta o instrumento por ano? <input type="number" id="vezes_conserto"> </h3>
+        <h3 class="letra2"> Quantas vezes conserta ou faz manutenção do instrumento por ano? <input type="number" id="vezes_conserto"> </h3>
         <br>
         <button type="button" onclick="calcular()">Calcular</button>
     </form>
     </div>
     
     <div id="div_mensagem" style="background-color: sandybrown; color: maroon; display: none;"> 
-        Por ano você gasta R$<span id="gasto">X</span> reais com conserto do seu <span id="nome_instrumento">X</span>. <br>
+        Por ano você gasta R$<span id="gasto">X</span> reais com manutenção e conserto do seu <span id="nome_instrumento">X</span>. <br>
         Com nosso pruduto você ira economizar: R$ <b id="economia">X</b> reais por ano! <br>
         Por uma mensalidade de apenas: R$ <b id="mensalidade">X</b> reais.
     </div>
@@ -81,4 +81,4 @@
         economia.innerHTML= `${economia_por_ano}`;
         mensalidade.innerHTML= `${valor_mensalidade}`;
     }
-</script>
+</script>S
